@@ -4,7 +4,7 @@ const { remote } = require('webdriverio');
     const browser = await remote({
         capabilities: {
             browserName: 'chrome'
-        }
+        },
     })
 
     await browser.url('https://webdriver.io')
